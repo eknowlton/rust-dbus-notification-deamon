@@ -57,4 +57,6 @@ Optional signals:
 
 ### Generating some code using D-Bus Introspection XML and D-Bus Codegen
 
-D-Bus provides a way to introspect the interface that is provided by specific services. This results in some XML being returned. This XML can also work the other way with `dbus-codegen` crate.
+D-Bus provides a way to introspect the interface that is provided by specific services. This results in some XML being returned. This XML can also work the other way with `dbus-codegen` crate after installing.
+
+`./dbus-notifications-one $ dbus-codegen-rust < org.freedesktop.Notifications > src/mod.rs`
